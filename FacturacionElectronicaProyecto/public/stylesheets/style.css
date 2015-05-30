@@ -5,7 +5,7 @@ html, body{
 body{
   margin: 0;
   padding: 0;
-  background-color: #8DDFFF;
+  background-color: #456D7F;
   color: #756565;
   font-family: 'Inconsolata',sans-serif;
 }
@@ -19,11 +19,28 @@ body{
 }
 
 header{
-  background-color:#205B9F;
+  background-color:#319BCC;
   height: 165px;
   border-radius:50px;
 }
 #fieldset{
   margin:auto 100px;
   align:center;
+}
+footer{
+  text-align:center;
+  margin: 0px 50px;
+  padding: 10px 0px;
+  border-top: 3px solid gray;
+}
+#condiciones{
+  font-size:13px;
+  color:white;
+  width:400px;
+  background-color:#9AC8DD;
+  border-radius: 5px;
+  text-decoration:none;
+  text-transform: uppercase;
+  list-style:disc;
+  margin: 20px 20px 20px 100px;
 }
