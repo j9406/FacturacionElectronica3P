@@ -1,7 +1,62 @@
-@(message: String)
+@main("FACTURACION ELECTRONICA") {
 
-@main("Welcome to Play") {
-
-    @play20.welcome(message, style = "Java")
+<article>
+    <form action="submit.asp" method="get">
+        <fieldset id="fieldset">
+            <legend><h4>INTRODUCIR DATOS DE FACTURA:</h4></legend>
+            <div align="center">
+                RFC:                <input style="margin-left:140px" type="text" name="RFC"/></br>
+                NUMERO DE FOLIO:    <input style="margin-left:21px" type="text" name="FOLIO"></br>
+                SELLO DIGITAL SAT:  <input style="margin-left:18px" type="text" name="SELLO1"></br>
+                LUGAR:              <input style="margin-left:117px" type="text" name="SELLO1"></br>
+                FECHA:              <select style="margin-left:117px">
+                        <option value="0">dia</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+            </select>
+            </div>
+            <div align="center">
+                <input type="submit" value="Enviar datos">
+            </div>
+        </fieldset>
+    </form>
+    <ul id="condiciones">
+        <li style="list-style:none;"><h3>Condiciones...</h3></li>
+        <li>Aplica únicamente a los Novios.</li>
+        <li>No es transferible.</li>
+        <li>Se aplica únicamente el día del evento (noche de bodas).</li>
+        <li>Las condiciones y el costo puede estar sujeto a cambios sin previo aviso.</li>
+        <li>Sujeto a disponibilidad de cabañas.</li>
+    </ul>
+</article>
 
 }
