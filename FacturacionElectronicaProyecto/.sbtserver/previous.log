@@ -1,5 +1,5 @@
-New log file opened at Sat May 30 17:43:37 MDT 2015 by 7303@MBP-de-Javier-2.lan
-jvm 7303@MBP-de-Javier-2.lan
+New log file opened at Sat May 30 19:27:01 MDT 2015 by 8285@MBP-de-Javier-2.lan
+jvm 8285@MBP-de-Javier-2.lan
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.45-b02
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project, returning: (facturacionelectronicaproyecto-build)
 Loading project definition from /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@6c7ca3c9, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@15e0f3ae, check cycles: false
 [info] Updating {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/}facturacionelectronicaproyecto-build...
 Updating {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/}facturacionelectronicaproyecto-build...
 Other repositories:
@@ -16559,7 +16559,7 @@ all callers are evicted for org.scala-sbt#control;0.13.8-M3: evicting too
 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8-M5!apply-macro.jar
 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-:: resolution report :: resolve 39352ms :: artifacts dl 597ms
+:: resolution report :: resolve 28307ms :: artifacts dl 1045ms
 	report for default#facturacionelectronicaproyecto-build;0.1-SNAPSHOT compile produced in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/target/resolution-cache/reports/default-facturacionelectronicaproyecto-build-compile.xml
 	report for default#facturacionelectronicaproyecto-build;0.1-SNAPSHOT runtime produced in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/target/resolution-cache/reports/default-facturacionelectronicaproyecto-build-runtime.xml
 	report for default#facturacionelectronicaproyecto-build;0.1-SNAPSHOT test produced in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/target/resolution-cache/reports/default-facturacionelectronicaproyecto-build-test.xml
@@ -16573,7 +16573,7 @@ all callers are evicted for org.scala-sbt#control;0.13.8-M3: evicting too
 	report for default#facturacionelectronicaproyecto-build;0.1-SNAPSHOT docs produced in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/target/resolution-cache/reports/default-facturacionelectronicaproyecto-build-docs.xml
 	report for default#facturacionelectronicaproyecto-build;0.1-SNAPSHOT pom produced in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/target/resolution-cache/reports/default-facturacionelectronicaproyecto-build-pom.xml
 	report for default#facturacionelectronicaproyecto-build;0.1-SNAPSHOT scala-tool produced in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project/target/resolution-cache/reports/default-facturacionelectronicaproyecto-build-scala-tool.xml
-	resolve done (39352ms resolve - 597ms download)
+	resolve done (28307ms resolve - 1045ms download)
 [info] Done updating.
 Done updating.
 
@@ -16619,4 +16619,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 7303@MBP-de-Javier-2.lan logs at Sat May 30 17:45:18 MDT 2015, goodbye.
+Closing the 8285@MBP-de-Javier-2.lan logs at Sat May 30 19:28:19 MDT 2015, goodbye.

@@ -9,10 +9,14 @@ footer{
   font-size:13px;
   color:white;
   width:400px;
-  background-color:#9AC8DD;
+  background-color:#ABBFAB;
   border-radius: 5px;
   text-decoration:none;
   text-transform: uppercase;
   list-style:disc;
   margin: 20px 20px 20px 100px;
+}
+#fieldset{
+  margin:auto 100px;
+  align:center;
 }
