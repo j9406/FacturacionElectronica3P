@@ -1,29 +1,7 @@
-New log file opened at Sat May 30 19:28:28 MDT 2015 by 8325@MBP-de-Javier-2.lan
-Taking next connection to: 55635
-New client attempting to connect on port: 55636-55635
-  Address = /192.168.1.67:55635
-This client on port 55636 has uuid e967df5f-acc2-455e-8f75-ec4380ea02f7 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-e967df5f-acc2-455e-8f75-ec4380ea02f7
-Taking next connection to: 55635
-New client attempting to connect on port: 55637-55635
-  Address = /192.168.1.67:55635
-Handshake exception on socket: 55637
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 55635
-New client attempting to connect on port: 55638-55635
-  Address = /192.168.1.67:55635
-This client on port 55638 has uuid 73a07b90-71c2-4d5a-b09d-8bf651f44665 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-e967df5f-acc2-455e-8f75-ec4380ea02f7, play-fork-run-73a07b90-71c2-4d5a-b09d-8bf651f44665
-Taking next connection to: 55635
+New log file opened at Sat May 30 20:50:50 MDT 2015 by 3159@User37
+Taking next connection to: 60291
+New client attempting to connect on port: 41933-60291
+  Address = /127.0.1.1:60291
+This client on port 41933 has uuid b74f1e96-64f8-46c3-9cc8-3984736b034b configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b74f1e96-64f8-46c3-9cc8-3984736b034b
+Taking next connection to: 60291
