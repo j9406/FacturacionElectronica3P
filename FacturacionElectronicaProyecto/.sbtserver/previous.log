@@ -1,22 +1,22 @@
-New log file opened at Sat May 30 20:27:00 MDT 2015 by 3861@User37
-jvm 3861@User37
+New log file opened at Sun May 31 13:11:49 MDT 2015 by 12846@MBP-de-Javier-2.lan
+jvm 12846@MBP-de-Javier-2.lan
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.45-b02
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
 Starting event engine
 Starting sbt command engine
-Waiting for sbt command engine
 Command engine arguments=List()
-Command engine baseDirectory=/home/ozzie/Factu
+Command engine baseDirectory=/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto
+Waiting for sbt command engine
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
 > initialize
 > onFailure load-failed
 > boot
 > reload
-[Loading] Scanning directory /home/ozzie/Factu/project
+[Loading] Scanning directory /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project
 [Loading] Found non-root projects 
-[Loading] Done in /home/ozzie/Factu/project, returning: ()
+[Loading] Done in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -25,9 +25,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in /home/ozzie/Factu/project, returning: (factu-build)
-Loading project definition from /home/ozzie/Factu/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@1739bb20, check cycles: false
+[Loading] Done in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project, returning: (facturacionelectronicaproyecto-build)
+Loading project definition from /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2be27d9d, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -46,28 +46,75 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory /home/ozzie/Factu
-[Loading] Found non-root projects 
-[Loading] Done in /home/ozzie/Factu, returning: ()
-deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtEcho),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtEcho),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(And(Set(Atom(sbt.plugins.JvmPlugin), Atom(sbt.plugins.BackgroundRunPlugin))),Set(Atom(com.typesafe.sbt.SbtEcho)))))
-  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.SerializersPlugin,sbt.plugins.SendEventServicePlugin,sbt.plugins.InteractionServicePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.BackgroundRunPlugin,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.SbtEcho)
-sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.SbtEcho)
-  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.SbtEcho)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.SbtEcho)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.SbtEcho)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List(com.typesafe.sbt.SbtEcho)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.SbtEcho) not found List()
-  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.InteractionServicePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.BackgroundRunPlugin, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.SbtEcho)
-[Loading] Done in /home/ozzie/Factu, returning: (factu)
-Set current project to hello-scala (in build file:/home/ozzie/Factu/)
+[Loading] Scanning directory /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto
+[Loading] Found root project root w/ remaining 
+deducing auto plugins based on known facts Set(Atom(play.PlayJava), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtEcho),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.SbtEcho),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(play.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.PlayJava),Set(Atom(play.Play))), Clause(Atom(play.PlayScala),Set(Atom(play.Play))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.webdriver.SbtWebDriver),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.JvmPlugin), Atom(sbt.plugins.BackgroundRunPlugin))),Set(Atom(com.typesafe.sbt.SbtEcho))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.webdriver.SbtWebDriver))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha)))))
+  :: deduced result: Matched(sbt.plugins.CorePlugin,play.PlayJava,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.typesafe.sbt.jse.SbtJsTask,play.twirl.sbt.SbtTwirl,com.typesafe.sbt.webdriver.SbtWebDriver,com.typesafe.sbt.jshint.SbtJSHint,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.digest.SbtDigest,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.SbtEcho)
+sorting: ns: List(sbt.plugins.CorePlugin, play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.digest.SbtDigest, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb) not found List(play.PlayJava, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.digest.SbtDigest, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest) not found List(play.PlayJava, play.Play, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask) not found List(play.PlayJava, play.Play, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin) not found List(play.PlayJava, play.Play, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.SbtEcho)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho) not found List(play.PlayJava, play.sbt.forkrun.PlayForkRun)
+  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho, play.PlayJava, play.sbt.forkrun.PlayForkRun) not found List()
+  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.web.SbtWeb, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.webdriver.SbtWebDriver, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, sbt.plugins.JvmPlugin, com.typesafe.sbt.jse.SbtJsTask, play.twirl.sbt.SbtTwirl, com.typesafe.sbt.jshint.SbtJSHint, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, play.Play, com.typesafe.sbt.SbtEcho, play.PlayJava, play.sbt.forkrun.PlayForkRun)
+[Loading] Done in /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto, returning: (root)
+Set current project to FacturacionElectronicaProyecto (in build file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/)
 Reapplying settings...
-Set current project to hello-scala (in build file:/home/ozzie/Factu/)
+Set current project to FacturacionElectronicaProyecto (in build file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/)
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/compile:discoveredMainClasses
+> compile
+Evaluating tasks: compile:compile
+Running task... Cancel: sbt.server.ServerTaskCancellation@121def5e, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/twirl/main/views/html/index.template.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/twirl/main/views/html/index.template.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/twirl/main/views/html/index.template.scala)
+
+Read from stdout: Compiling 1 Scala source to /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes...
+Compiling 1 Scala source to /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes...
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.6
+Other repositories:
+Default repositories:
+Running cached compiler 3372ecc6, interfacing (CompilerInterface) with Scala compiler version 2.11.6
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes:/Users/javiercruz/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+	-classpath
+	/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes:/Users/javiercruz/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.0.2.jar:/Users/javiercruz/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.1.jar:/Users/javiercruz/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/javiercruz/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/Users/javiercruz/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.6.jar:/Users/javiercruz/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.3.2.jar:/Users/javiercruz/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.3.2.jar:/Users/javiercruz/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.3.2.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-lang/scala-reflect/2.11.1/jars/scala-reflect.jar:/Users/javiercruz/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/javiercruz/.ivy2/cache/io.netty/netty/bundles/netty-3.9.8.Final.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.2.jar:/Users/javiercruz/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar:/Users/javiercruz/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.6.jar:/Users/javiercruz/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar:/Users/javiercruz/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.1.jar:/Users/javiercruz/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.1.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/com.typesafe.akka/akka-actor_2.11/2.3.4/jars/akka-actor_2.11.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/com.typesafe.akka/akka-slf4j_2.11/2.3.4/jars/akka-slf4j_2.11.jar:/Users/javiercruz/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.9.jar:/Users/javiercruz/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/javiercruz/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/javiercruz/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.3.9.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.yaml/snakeyaml/1.13/bundles/snakeyaml.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.hibernate/hibernate-validator/5.0.3.Final/jars/hibernate-validator.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/javax.validation/validation-api/1.1.0.Final/jars/validation-api.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/com.fasterxml/classmate/1.0.0/bundles/classmate.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.jboss.logging/jboss-logging/3.2.0.Final/jars/jboss-logging.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.springframework/spring-context/4.0.3.RELEASE/jars/spring-context.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.springframework/spring-core/4.0.3.RELEASE/jars/spring-core.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.springframework/spring-beans/4.0.3.RELEASE/jars/spring-beans.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.javassist/javassist/3.19.0-GA/bundles/javassist.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.reflections/reflections/0.9.8/jars/reflections.jar:/Users/javiercruz/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/dom4j/dom4j/1.6.1/jars/dom4j.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/com.google.code.findbugs/jsr305/2.0.3/jars/jsr305.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.apache.tomcat/tomcat-servlet-api/8.0.5/jars/tomcat-servlet-api.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.3.9.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/com.jolbox/bonecp/0.8.0.RELEASE/bundles/bonecp.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/com.h2database/h2/1.3.175/jars/h2.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/tyrex/tyrex/1.0.1/jars/tyrex.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-java-ebean_2.11/jars/play-java-ebean_2.11-2.3.9.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.avaje.ebeanorm/avaje-ebeanorm/3.3.4/jars/avaje-ebeanorm.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.avaje.ebeanorm/avaje-ebeanorm-agent/3.2.2/jars/avaje-ebeanorm-agent.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/jars/hibernate-jpa-2.0-api.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.3.9.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/net.sf.ehcache/ehcache-core/2.6.8/jars/ehcache-core.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.3.9.jar:/Users/javiercruz/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.8.15.jar:/Users/javiercruz/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/javiercruz/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.apache.httpcomponents/httpcore/4.0.1/jars/httpcore.jar:/usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.apache.httpcomponents/httpclient/4.0.1/jars/httpclient.jar:/Users/javiercruz/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar
+Scala compilation took 9.779904073 s
+New invalidations:
+	Set()
+Initial set of included nodes: Set()
+Previously invalidated, but (transitively) depend on new invalidations:
+	Set()
+All newly invalidated sources after taking into account (previously) recompiled sources:Set()
+Total time: 13 s, completed 31/05/2015 01:12:16 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@51a29fb1, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4b865950, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -84,76 +131,36 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed May 30, 2015 8:27:12 PM
+Total time: 1 s, completed 31/05/2015 01:12:17 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@2645fbfc, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
-Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
-Total time: 1 s, completed May 30, 2015 8:27:13 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/echo:echoTraceSupported
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/echo:echoTraceSupported
 Evaluating tasks: echo:echoTraceSupported
-Running task... Cancel: sbt.server.ServerTaskCancellation@1d3a8d5c, check cycles: false
-Total time: 0 s, completed May 30, 2015 8:27:13 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@118e84e3, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:12:17 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/echo:echoPlayVersionReport
-Evaluating tasks: echo:echoPlayVersionReport
-Running task... Cancel: sbt.server.ServerTaskCancellation@2796d57c, check cycles: false
-Total time: 0 s, completed May 30, 2015 8:27:13 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/echo:echoAkkaVersionReport
-Evaluating tasks: echo:echoAkkaVersionReport
-Running task... Cancel: sbt.server.ServerTaskCancellation@a1e34da, check cycles: false
-Total time: 0 s, completed May 30, 2015 8:27:13 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@365f3884, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed May 30, 2015 8:27:14 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/ozzie/Factu/}factu/compile:mainClass
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@101d5725, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@4d44c226, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:12:17 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/echo:echoPlayVersionReport
+Evaluating tasks: echo:echoPlayVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@65307cb0, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:12:17 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/echo:echoAkkaVersionReport
+Evaluating tasks: echo:echoAkkaVersionReport
+Running task... Cancel: sbt.server.ServerTaskCancellation@7cd50ba0, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:12:17 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@790d9d00, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -170,486 +177,30 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Read from stdout: Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
-Multiple main classes detected.  Run 'show discoveredMainClasses' to see the list
-Total time: 0 s, completed May 30, 2015 8:27:14 PM
+Total time: 1 s, completed 31/05/2015 01:12:18 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@1e3d9a20, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Read from stdout: Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 7abea20d, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Scala compilation took 5.477388856 s
-Invalidating /home/ozzie/Factu/src/main/scala/PdfGenerator.scala...
-Invalidating (transitively) by inheritance from /home/ozzie/Factu/src/main/scala/PdfGenerator.scala...
-Initial set of included nodes: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-The /home/ozzie/Factu/src/main/scala/PdfGenerator.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Hello, toString, !=, getClass, PdfGenerator, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-Invalidated due to generated class file collision: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-All newly invalidated sources after taking into account (previously) recompiled sources:Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 5d02fe0c, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Read from stdout: source file '/home/ozzie/Factu/src/main/scala/Hello.scala' could not be found
-source file '/home/ozzie/Factu/src/main/scala/Hello.scala' could not be found
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:31mcompileIncremental0m) Compilation failed
-Total time: 7 s, completed May 30, 2015 8:27:46 PM
-> server-post-command-error-handler
+> backgroundRun
+Evaluating tasks: compile:backgroundRun
+Running task... Cancel: sbt.server.ServerTaskCancellation@4f7e1414, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:12:23 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@2bdd058b, check cycles: false
-
-Initial source changes: 
-	removed:Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	added: Set()
-	modified: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-Removed products: Set(/home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator$.class, /home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator.class)
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Sources indirectly invalidated by:
-	product: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Recompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 2e787bc5, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Scala compilation took 1.233479662 s
-Invalidating /home/ozzie/Factu/src/main/scala/PdfGenerator.scala...
-Invalidating (transitively) by inheritance from /home/ozzie/Factu/src/main/scala/PdfGenerator.scala...
-Initial set of included nodes: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-The /home/ozzie/Factu/src/main/scala/PdfGenerator.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Hello, toString, !=, getClass, PdfGenerator, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-Invalidating /home/ozzie/Factu/src/main/scala/Hello.scala...
-Invalidating (transitively) by inheritance from /home/ozzie/Factu/src/main/scala/Hello.scala...
-Initial set of included nodes: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-The /home/ozzie/Factu/src/main/scala/Hello.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, PdfGenerator, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed May 30, 2015 8:27:48 PM
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/*:playForkConfig
+Evaluating tasks: *:playForkConfig
+Running task... Cancel: sbt.server.ServerTaskCancellation@4eb6cbf7, check cycles: false
+Total time: 1 s, completed 31/05/2015 01:12:36 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@39e8be90, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-
-Read from stdout: Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 4f8cde0e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Scala compilation took 1.122742062 s
-Invalidating /home/ozzie/Factu/src/main/scala/Hello.scala...
-Invalidating (transitively) by inheritance from /home/ozzie/Factu/src/main/scala/Hello.scala...
-Initial set of included nodes: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-Invalidated by transitive inheritance dependency: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-The /home/ozzie/Factu/src/main/scala/Hello.scala source file has the following regular definitions changed:
-	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, PdfGenerator, ne, eq, ##, finalize, hashCode.
-All member reference dependencies will be considered within this context.
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-Invalidated due to generated class file collision: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala, /home/ozzie/Factu/src/main/scala/Hello.scala)
-All newly invalidated sources after taking into account (previously) recompiled sources:Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 42ea6913, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Read from stdout: /home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-/home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-Read from stdout: object PdfGenerator {
-object PdfGenerator {
-Read from stdout: ^
-       ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:31mcompileIncremental0m) Compilation failed
-Total time: 2 s, completed May 30, 2015 8:27:50 PM
-> server-post-command-error-handler
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@115bdbda, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:12:38 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4d75e307, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	modified: Set()
-Removed products: Set(/home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator$.class, /home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator.class)
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 228e16de, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Read from stdout: /home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-/home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-Read from stdout: object PdfGenerator {
-object PdfGenerator {
-Read from stdout: ^
-       ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:31mcompileIncremental0m) Compilation failed
-Total time: 1 s, completed May 30, 2015 8:27:51 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5a3ae706, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	modified: Set()
-Removed products: Set(/home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator$.class, /home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator.class)
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 5d996b2a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Read from stdout: /home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-/home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-Read from stdout: object PdfGenerator {
-object PdfGenerator {
-Read from stdout: ^
-       ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:31mcompileIncremental0m) Compilation failed
-Total time: 1 s, completed May 30, 2015 8:28:12 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@5e434953, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	modified: Set()
-Removed products: Set(/home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator$.class, /home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator.class)
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 4e6a64de, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Read from stdout: /home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-/home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-Read from stdout: object PdfGenerator {
-object PdfGenerator {
-Read from stdout: ^
-       ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:31mcompileIncremental0m) Compilation failed
-Total time: 1 s, completed May 30, 2015 8:28:40 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@18620cde, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-	modified: Set()
-Removed products: Set(/home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator$.class, /home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator.class)
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala)
-
-Sources indirectly invalidated by:
-	product: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/Hello.scala, /home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources
-Read from stdout: Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 2 Scala sources to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 7679995c, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Read from stdout: /home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-/home/ozzie/Factu/src/main/scala/PdfGenerator.scala:4: PdfGenerator is already defined as object PdfGenerator
-Read from stdout: object PdfGenerator {
-object PdfGenerator {
-Read from stdout: ^
-       ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Read from stdout: (compile:compileIncremental) Compilation failed
-(compile:31mcompileIncremental0m) Compilation failed
-Total time: 1 s, completed May 30, 2015 8:28:42 PM
-> server-post-command-error-handler
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@28ce8f0c, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set(/home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator$.class, /home/ozzie/Factu/target/scala-2.11/classes/PdfGenerator.class)
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/ozzie/Factu/src/main/scala/PdfGenerator.scala)
-
-Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-Read from stdout: Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Compiling 1 Scala source to /home/ozzie/Factu/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 7de09268, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-bootclasspath
-	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/ozzie/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/home/ozzie/Factu/target/scala-2.11/classes
-Scala compilation took 1.25539512 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed May 30, 2015 8:29:15 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@4fa9f0c0, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 0 s, completed May 30, 2015 8:29:15 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRunMain PdfGenerator
-Evaluating tasks: compile:backgroundRunMain
-Running task... Cancel: sbt.server.ServerTaskCancellation@184cbc1c, check cycles: false
+> {file:/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@30d50030, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -667,7 +218,17 @@ Sources indirectly invalidated by:
 All initially invalidated sources: Set()
 
 Copy resource mappings: 
-	
-Total time: 0 s, completed May 30, 2015 8:29:28 PM
+	(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/conf/application.conf,/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes/application.conf)
+	(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/conf/evolutions,/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes/evolutions)
+	(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/conf/routes,/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes/routes)
+	(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/conf/evolutions/default,/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes/evolutions/default)
+	(/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/conf/evolutions/default/1.sql,/Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 3 s, completed 31/05/2015 01:12:44 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> jobStop 1
+Evaluating tasks: *:jobStop
+Running task... Cancel: sbt.server.ServerTaskCancellation@631155ba, check cycles: false
+Total time: 0 s, completed 31/05/2015 01:13:45 PM
 > server-post-command-cleanup
 > server-handle-next-server-request

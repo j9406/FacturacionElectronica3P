@@ -1,7 +1,34 @@
-New log file opened at Sat May 30 20:50:50 MDT 2015 by 3159@User37
-Taking next connection to: 60291
-New client attempting to connect on port: 41933-60291
-  Address = /127.0.1.1:60291
-This client on port 41933 has uuid b74f1e96-64f8-46c3-9cc8-3984736b034b configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-b74f1e96-64f8-46c3-9cc8-3984736b034b
-Taking next connection to: 60291
+New log file opened at Sun May 31 14:32:56 MDT 2015 by 13554@MBP-de-Javier-2.lan
+Taking next connection to: 60094
+New client attempting to connect on port: 60095-60094
+  Address = /192.168.1.67:60094
+This client on port 60095 has uuid b5f6553e-aab2-421f-a6d0-dbddf9346869 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b5f6553e-aab2-421f-a6d0-dbddf9346869
+Taking next connection to: 60094
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60094
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60094
+New client attempting to connect on port: 60150-60094
+  Address = /192.168.1.67:60094
+Handshake exception on socket: 60150
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 60094
+New client attempting to connect on port: 60151-60094
+  Address = /192.168.1.67:60094
+This client on port 60151 has uuid 33446cf0-e682-472e-b6da-ef25adc5f0d0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-b5f6553e-aab2-421f-a6d0-dbddf9346869, play-fork-run-33446cf0-e682-472e-b6da-ef25adc5f0d0
+Taking next connection to: 60094
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60094

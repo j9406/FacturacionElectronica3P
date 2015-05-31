@@ -1,20 +1,19 @@
 package models;
 
-import java.util.*;
-import javax.persistence.*;
-
-import play.db.ebean.*;
+import com.avaje.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
+import play.db.ebean.*;
 
-import com.avaje.ebean.*;
+import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Facturaciondb extends Model {
 
     @Id
     @Constraints.Min(10)
-    public Long id;
+    public long id;
 
     @Constraints.Min(0)
     @Constraints.Max(13)
@@ -22,7 +21,7 @@ public class Facturaciondb extends Model {
     public String RFCex;
 
     @Constraints.Required(message="Debe ingresar el numero de folio")
-    public int numFol;
+    public String numFol;
 
     @Constraints.Required(message="Debe ingresar el sello digital sat")
     public String sell;
@@ -30,8 +29,8 @@ public class Facturaciondb extends Model {
     @Constraints.Required(message="Debe ingresar el lugar del que expide")
     public String lugar;
 
-    @Formats.DateTime(pattern="dd/MM/yyyy")
-    public Date dueDate = new Date();
+
+    public String dueDate;
 
     @Constraints.Min(0)
     @Constraints.Max(13)
@@ -42,13 +41,12 @@ public class Facturaciondb extends Model {
     public String desSer;
 
     @Constraints.Required(message="Debe ingresar el valor unitario")
-    public int valUni;
+    public String valUni;
 
     @Constraints.Required(message="Debe ingresar el importe Total")
-    public float impTot;
+    public String impTot;
 
-    public static Finder<Long,Facturaciondb> find = new Finder<Long,Facturaciondb>(
-            Long.class, Facturaciondb.class
-    );
+
+    public static Model.Finder<Long, Facturaciondb> find = new Model.Finder<Long, Facturaciondb>(long.class, Facturaciondb.class);
 
 }
