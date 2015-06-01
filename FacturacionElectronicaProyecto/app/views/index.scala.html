@@ -1,5 +1,7 @@
 @(formulario: Form[Facturaciondb])
 
+@implicitFieldConstructor = @{ FieldConstructor(views.html.combo.fieldconstructorinput.render) }
+
 @import helper._
 
 @main("FACTURACION ELECTRONICA"){
@@ -15,19 +17,23 @@
         <fieldset id="fieldset">
             <legend  style="margin-left:80px"><h4>INTRODUCIR DATOS DE FACTURA:</h4></legend>
             <div align="center">
-                @inputText(formulario("RFCex"),'_showConstraints -> false, '_label -> "RFC(Del que expide): ")
-                @inputText(formulario("numFol"),'_showConstraints -> false, '_label -> "NUMERO DE FOLIO: ")
-                @inputText(formulario("sell"),'_showConstraints -> false, '_label -> "SELLO: ")
-                @inputText(formulario("lugar"),'_showConstraints -> false, '_label -> "LUGAR: ")
-                @inputText(formulario("dueDate"),'_showConstraints -> false, '_label -> "FECHA: ")
-                @inputText(formulario("RFCsexp"),'_showConstraints -> false, '_label -> "RFC(Del que se expide): ")
-                @inputText(formulario("desSer"),'_showConstraints -> false, '_label -> "DESCRIPCION: ")
-                @inputText(formulario("valUni"),'_showConstraints -> false, '_label -> "VALOR UNITARIO: ")
-                @inputText(formulario("impTot"),'_showConstraints -> false, '_label -> "IMPORTE TOTAL: ")
+                @inputText(formulario("RFCex"),'_showConstraints -> false, '_label -> "RFC(Del que expide):    ")</br>
+                @inputText(formulario("numFol"),'_showConstraints -> false, '_label -> "NUMERO DE FOLIO:  ")</br>
+                @inputText(formulario("sell"),'_showConstraints -> false, '_label -> "SELLO:                          ")</br>
+                @inputText(formulario("lugar"),'_showConstraints -> false, '_label -> "LUGAR:                         ")</br>
+                @inputText(formulario("dueDate"),'_showConstraints -> false, '_label -> "FECHA:                          ")</br>
+                @inputText(formulario("RFCsexp"),'_showConstraints -> false, '_label -> "RFC(Del que se expide):")</br>
+                @inputText(formulario("desSer"),'_showConstraints -> false, '_label -> "DESCRIPCION:             ")</br>
+                @inputText(formulario("valUni"),'_showConstraints -> false, '_label -> "VALOR UNITARIO:     ")</br>
+                @inputText(formulario("impTot"),'_showConstraints -> false, '_label -> "IMPORTE TOTAL:        ")</br>
             </div>
 
             <div align="center">
                 <a href="@routes.Application.create()"><input type="submit" value="Enviar datos"></a>
+                <div align="center">
+                    @if(flash.containsKey("success")){
+                        <a href="@routes.Application.PDFcreate()"><input type="button" value="Crear Excel"></a>
+                    }</div>
             </div>
         </fieldset>
       }

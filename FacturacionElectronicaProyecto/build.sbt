@@ -10,7 +10,9 @@ libraryDependencies ++= Seq(
   javaJdbc,
   javaEbean,
   cache,
-  javaWs
+  javaWs,
+  "org.apache.poi" % "poi" % "3.8",
+  "org.apache.poi" % "poi-ooxml" % "3.9"
 )
 
 

@@ -1,0 +1,42 @@
+New log file opened at Mon Jun 01 15:00:17 MDT 2015 by 4064@MBP-de-Javier-2
+Sending msg to client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/.sbtserver/connections/master.log))
+Sending msg to client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/.sbtserver/connections/activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466.log))
+Sending msg to client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/.sbtserver/master.log))
+Dropping message DetachedLogEvent(LogMessage(debug,sbt client logs are in: /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/.sbtserver/connections/activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466.log)) because client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466 of an exception serializing and sending: java.net.SocketException: Broken pipe
+Dropping message DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /Users/javiercruz/Documents/UNIVERSIDAD/INTERPRETES/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronica3P/FacturacionElectronicaProyecto/.sbtserver/master.log)) because client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466 of an exception serializing and sending: java.net.SocketException: Broken pipe
+stack trace sending message was 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at sbt.impl.ipc.Peer.send(IPC.scala:79)
+	at sbt.impl.ipc.Peer.send(IPC.scala:83)
+	at sbt.impl.ipc.Peer.sendString(IPC.scala:106)
+	at sbt.impl.ipc.Peer.sendJson(IPC.scala:119)
+	at sbt.server.SbtClientHandler$$anonfun$send$1.apply$mcV$sp(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler.wrappedSend(SbtClientHandler.scala:113)
+	at sbt.server.SbtClientHandler.send(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler$clientThread$.run(SbtClientHandler.scala:42)
+stack trace sending message was 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at sbt.impl.ipc.Peer.send(IPC.scala:79)
+	at sbt.impl.ipc.Peer.send(IPC.scala:83)
+	at sbt.impl.ipc.Peer.sendString(IPC.scala:106)
+	at sbt.impl.ipc.Peer.sendJson(IPC.scala:119)
+	at sbt.server.SbtClientHandler$$anonfun$send$1.apply$mcV$sp(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler.wrappedSend(SbtClientHandler.scala:113)
+	at sbt.server.SbtClientHandler.send(SbtClientHandler.scala:128)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:94)
+Reading next message from client.
+Client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466 closed, java.net.SocketException: socket is closed, shutting down
+Dropping message (0,ReceivedResponse()) to dead client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466
+Client activator-b1ed8e5d-e7a7-4e6b-a0cd-32e3c22f6466 thread exiting.
