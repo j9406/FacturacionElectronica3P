@@ -20,10 +20,11 @@ public class Application extends Controller {
     }
 
     public static Result create(){
-            Form<Facturaciondb> formulario = Form.form(Facturaciondb.class);
-            if (formulario.hasErrors()) {
-                return badRequest(index.render(formulario));
-            }
+        Form<Facturaciondb> formulario = Form.form(Facturaciondb.class).bindFromRequest();
+        if (formulario.hasErrors()) {
+            return badRequest(index.render(formulario));
+        }
+            formulario.get().save();
             flash("success", "se ha guardado tus datos");
             return ok(index.render(formulario));
         }

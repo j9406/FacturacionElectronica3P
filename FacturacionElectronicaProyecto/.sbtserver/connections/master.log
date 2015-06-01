@@ -1,19 +1,13 @@
-New log file opened at Sun May 31 14:32:56 MDT 2015 by 13554@MBP-de-Javier-2.lan
-Taking next connection to: 60094
-New client attempting to connect on port: 60095-60094
-  Address = /192.168.1.67:60094
-This client on port 60095 has uuid b5f6553e-aab2-421f-a6d0-dbddf9346869 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
-Connected Clients: activator-b5f6553e-aab2-421f-a6d0-dbddf9346869
-Taking next connection to: 60094
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 60094
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 60094
-New client attempting to connect on port: 60150-60094
-  Address = /192.168.1.67:60094
-Handshake exception on socket: 60150
+New log file opened at Mon Jun 01 00:48:01 MDT 2015 by 16975@MBP-de-Javier-2
+Taking next connection to: 64458
+New client attempting to connect on port: 64459-64458
+  Address = /192.168.1.70:64458
+This client on port 64459 has uuid 74764309-27f8-49c0-af37-7cf1f1d24069 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-74764309-27f8-49c0-af37-7cf1f1d24069
+Taking next connection to: 64458
+New client attempting to connect on port: 64465-64458
+  Address = /192.168.1.70:64458
+Handshake exception on socket: 64465
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -23,12 +17,12 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 60094
-New client attempting to connect on port: 60151-60094
-  Address = /192.168.1.67:60094
-This client on port 60151 has uuid 33446cf0-e682-472e-b6da-ef25adc5f0d0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-b5f6553e-aab2-421f-a6d0-dbddf9346869, play-fork-run-33446cf0-e682-472e-b6da-ef25adc5f0d0
-Taking next connection to: 60094
+Taking next connection to: 64458
+New client attempting to connect on port: 64466-64458
+  Address = /192.168.1.70:64458
+This client on port 64466 has uuid 6c520785-cf82-41f5-a5fc-c9956ec3fd25 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-74764309-27f8-49c0-af37-7cf1f1d24069, play-fork-run-6c520785-cf82-41f5-a5fc-c9956ec3fd25
+Taking next connection to: 64458
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 60094
+Taking next connection to: 64458

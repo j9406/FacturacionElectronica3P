@@ -12,13 +12,18 @@ import java.util.Date;
 public class Facturaciondb extends Model {
 
     @Id
-    @Constraints.Min(10)
     public long id;
 
-    @Constraints.Min(0)
-    @Constraints.Max(13)
     @Constraints.Required(message="Debe ingresar el RFC del que expide")
     public String RFCex;
+
+    public String getRFCex() {
+        return RFCex;
+    }
+
+    public void setRFCex(String RFCex) {
+        this.RFCex = RFCex;
+    }
 
     @Constraints.Required(message="Debe ingresar el numero de folio")
     public String numFol;
@@ -32,10 +37,17 @@ public class Facturaciondb extends Model {
 
     public String dueDate;
 
-    @Constraints.Min(0)
-    @Constraints.Max(13)
+
     @Constraints.Required(message="Debe ingresar el RFC del que se expide")
     public String RFCsexp;
+
+    public String getRFCsexp() {
+        return RFCsexp;
+    }
+
+    public void setRFCsexp(String RFCsexp) {
+        this.RFCsexp = RFCsexp;
+    }
 
     @Constraints.Required(message="Debe ingresar descripción del producto")
     public String desSer;
